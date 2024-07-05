@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "5000:5000"
+    image: arabic-letters-numbers-ocr
+    container_name:   arabic-letters-numbers-ocr-container
